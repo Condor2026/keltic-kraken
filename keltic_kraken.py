@@ -595,7 +595,6 @@ FUENTES_BASE = [
     {'nombre': 'The Journal', 'url': 'https://www.thejournal.ie/crime/', 'base': 'https://www.thejournal.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Mirror', 'url': 'https://www.irishmirror.ie/news/irish-crime/', 'base': 'https://www.irishmirror.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Examiner', 'url': 'https://www.irishexaminer.com/news/crime/', 'base': 'https://www.irishexaminer.com', 'condado': 'Cork', 'categoria': 'national'},
-    {'nombre': 'Sunday World', 'url': 'https://www.sundayworld.com/crime/', 'base': 'https://www.sundayworld.com', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Newstalk', 'url': 'https://www.newstalk.com/crime', 'base': 'https://www.newstalk.com', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Today FM', 'url': 'https://www.todayfm.com/news/crime/', 'base': 'https://www.todayfm.com', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Garda Post', 'url': 'https://www.gardapost.com/', 'base': 'https://www.gardapost.com', 'condado': 'Dublin', 'categoria': 'national'},
@@ -604,22 +603,15 @@ FUENTES_BASE = [
     {'nombre': 'Dublin Live', 'url': 'https://www.dublinlive.ie/news/dublin-crime/', 'base': 'https://www.dublinlive.ie', 'condado': 'Dublin', 'categoria': 'local'},
     {'nombre': 'Dublin Gazette', 'url': 'https://dublingazette.com/crime/', 'base': 'https://dublingazette.com', 'condado': 'Dublin', 'categoria': 'local'},
     {'nombre': 'Dublin People', 'url': 'https://dublinpeople.com/news/crime/', 'base': 'https://dublinpeople.com', 'condado': 'Dublin', 'categoria': 'local'},
-    {'nombre': 'North Dublin News', 'url': 'https://northdublinnews.ie/category/crime/', 'base': 'https://northdublinnews.ie', 'condado': 'Dublin', 'categoria': 'local'},
-    {'nombre': 'South Dublin News', 'url': 'https://southdublinnews.ie/category/crime/', 'base': 'https://southdublinnews.ie', 'condado': 'Dublin', 'categoria': 'local'},
     {'nombre': 'Dublin Evening Herald', 'url': 'https://www.dublinlive.ie/news/dublin-news/', 'base': 'https://www.dublinlive.ie', 'condado': 'Dublin', 'categoria': 'local'},
     
     # === CORK REGION ===
     {'nombre': 'Cork Beo', 'url': 'https://www.corkbeo.ie/news/cork-crime/', 'base': 'https://www.corkbeo.ie', 'condado': 'Cork', 'categoria': 'local'},
     {'nombre': 'Cork Independent', 'url': 'https://corkindependent.com/category/crime/', 'base': 'https://corkindependent.com', 'condado': 'Cork', 'categoria': 'local'},
-    {'nombre': 'Cork News', 'url': 'https://www.corknews.ie/crime/', 'base': 'https://www.corknews.ie', 'condado': 'Cork', 'categoria': 'local'},
-    {'nombre': 'Cork Safety Alert', 'url': 'https://corksafetyalert.com/category/crime/', 'base': 'https://corksafetyalert.com', 'condado': 'Cork', 'categoria': 'local'},
     
     # === GALWAY REGION ===
-    {'nombre': 'Galway Beo', 'url': 'https://www.galwaybeo.ie/news/galway-crime/', 'base': 'https://www.galwaybeo.ie', 'condado': 'Galway', 'categoria': 'local'},
-    {'nombre': 'Galway Advertiser', 'url': 'https://www.galwayadvertiser.ie/crime/', 'base': 'https://www.galwayadvertiser.ie', 'condado': 'Galway', 'categoria': 'local'},
     {'nombre': 'Galway Daily', 'url': 'https://galwaydaily.com/category/crime/', 'base': 'https://galwaydaily.com', 'condado': 'Galway', 'categoria': 'local'},
     {'nombre': 'Connacht Tribune', 'url': 'https://www.connachttribune.ie/category/crime/', 'base': 'https://www.connachttribune.ie', 'condado': 'Galway', 'categoria': 'local'},
-    {'nombre': 'Galway Bay FM', 'url': 'https://galwaybayfm.ie/news/crime/', 'base': 'https://galwaybayfm.ie', 'condado': 'Galway', 'categoria': 'local'},
     
     # === LIMERICK REGION ===
     {'nombre': 'Limerick Leader', 'url': 'https://www.limerickleader.ie/news/crime/', 'base': 'https://www.limerickleader.ie', 'condado': 'Limerick', 'categoria': 'local'},
@@ -632,11 +624,9 @@ FUENTES_BASE = [
     
     # === KERRY REGION ===
     {'nombre': 'Kerryman', 'url': 'https://www.kerryman.ie/news/crime/', 'base': 'https://www.kerryman.ie', 'condado': 'Kerry', 'categoria': 'local'},
-    {'nombre': "Kerry's Eye", 'url': 'https://www.kerryseye.com/crime/', 'base': 'https://www.kerryseye.com', 'condado': 'Kerry', 'categoria': 'local'},
     {'nombre': 'Radio Kerry', 'url': 'https://www.radiokerry.ie/news/crime/', 'base': 'https://www.radiokerry.ie', 'condado': 'Kerry', 'categoria': 'local'},
     
     # === CLARE REGION ===
-    {'nombre': 'Clare Champion', 'url': 'https://www.clarechampion.ie/category/crime/', 'base': 'https://www.clarechampion.ie', 'condado': 'Clare', 'categoria': 'local'},
     {'nombre': 'Clare Echo', 'url': 'https://www.clareecho.ie/category/crime/', 'base': 'https://www.clareecho.ie', 'condado': 'Clare', 'categoria': 'local'},
     {'nombre': 'Clare FM', 'url': 'https://www.clare.fm/news/crime/', 'base': 'https://www.clare.fm', 'condado': 'Clare', 'categoria': 'local'},
     
@@ -647,18 +637,14 @@ FUENTES_BASE = [
     
     # === MAYO REGION ===
     {'nombre': 'Mayo News', 'url': 'https://www.mayonews.ie/category/crime', 'base': 'https://www.mayonews.ie', 'condado': 'Mayo', 'categoria': 'local'},
-    {'nombre': 'Connaught Telegraph', 'url': 'https://www.connaughttelegraph.ie/category/crime/', 'base': 'https://www.connaughttelegraph.ie', 'condado': 'Mayo', 'categoria': 'local'},
     {'nombre': 'Midwest Radio', 'url': 'https://www.midwestradio.ie/news/crime/', 'base': 'https://www.midwestradio.ie', 'condado': 'Mayo', 'categoria': 'local'},
     
     # === WEXFORD REGION ===
     {'nombre': 'Wexford People', 'url': 'https://www.wexfordpeople.ie/news/crime/', 'base': 'https://www.wexfordpeople.ie', 'condado': 'Wexford', 'categoria': 'local'},
-    {'nombre': 'Wexford Echo', 'url': 'https://wexfordecho.ie/category/crime/', 'base': 'https://wexfordecho.ie', 'condado': 'Wexford', 'categoria': 'local'},
     {'nombre': 'South East Radio', 'url': 'https://southeastradio.ie/news/crime/', 'base': 'https://southeastradio.ie', 'condado': 'Wexford', 'categoria': 'local'},
     
     # === KILDARE REGION ===
     {'nombre': 'Kildare Now', 'url': 'https://kildarenow.com/crime', 'base': 'https://kildarenow.com', 'condado': 'Kildare', 'categoria': 'local'},
-    {'nombre': 'Kildare Post', 'url': 'https://kildarepost.ie/category/crime/', 'base': 'https://kildarepost.ie', 'condado': 'Kildare', 'categoria': 'local'},
-    {'nombre': 'KFM Radio', 'url': 'https://kfmradio.com/news/crime/', 'base': 'https://kfmradio.com', 'condado': 'Kildare', 'categoria': 'local'},
     
     # === TIPPERARY REGION ===
     {'nombre': 'Tipperary Live', 'url': 'https://www.tipperarylive.ie/news/crime/', 'base': 'https://www.tipperarylive.ie', 'condado': 'Tipperary', 'categoria': 'local'},
@@ -668,11 +654,9 @@ FUENTES_BASE = [
     # === LOUTH REGION ===
     {'nombre': 'Louth Live', 'url': 'https://www.louthlive.ie/news/crime/', 'base': 'https://www.louthlive.ie', 'condado': 'Louth', 'categoria': 'local'},
     {'nombre': 'Drogheda Independent', 'url': 'https://www.droghedaindependent.ie/news/crime/', 'base': 'https://www.droghedaindependent.ie', 'condado': 'Louth', 'categoria': 'local'},
-    {'nombre': 'LMFM', 'url': 'https://www.lmfm.ie/news/crime/', 'base': 'https://www.lmfm.ie', 'condado': 'Louth', 'categoria': 'local'},
     
     # === SLIGO REGION ===
     {'nombre': 'Sligo Champion', 'url': 'https://www.sligochampion.ie/news/crime/', 'base': 'https://www.sligochampion.ie', 'condado': 'Sligo', 'categoria': 'local'},
-    {'nombre': 'Sligo Today', 'url': 'https://sligotoday.ie/category/crime/', 'base': 'https://sligotoday.ie', 'condado': 'Sligo', 'categoria': 'local'},
     {'nombre': 'Ocean FM', 'url': 'https://www.oceanfm.ie/news/crime/', 'base': 'https://www.oceanfm.ie', 'condado': 'Sligo', 'categoria': 'local'},
     
     # === LAOIS REGION ===
@@ -684,12 +668,10 @@ FUENTES_BASE = [
     {'nombre': 'Offaly Express', 'url': 'https://www.offalyexpress.ie/news/crime/', 'base': 'https://www.offalyexpress.ie', 'condado': 'Offaly', 'categoria': 'local'},
     
     # === CAVAN REGION ===
-    {'nombre': 'Cavan Echo', 'url': 'https://www.cavanecho.ie/category/crime/', 'base': 'https://www.cavanecho.ie', 'condado': 'Cavan', 'categoria': 'local'},
     {'nombre': 'Northern Sound', 'url': 'https://www.northernsound.ie/news/crime/', 'base': 'https://www.northernsound.ie', 'condado': 'Cavan', 'categoria': 'local'},
     
     # === MONAGHAN REGION ===
-    {'nombre': 'Monaghan Live', 'url': 'https://monaghanlive.ie/category/crime/', 'base': 'https://monaghanlive.ie', 'condado': 'Monaghan', 'categoria': 'local'},
-    {'nombre': 'Northern Standard', 'url': 'https://northernstandard.ie/category/crime/', 'base': 'https://northernstandard.ie', 'condado': 'Monaghan', 'categoria': 'local'},
+    {'nombre': 'Northern Standard', 'url': 'https://northernstandard.ie/crime/', 'base': 'https://northernstandard.ie', 'condado': 'Monaghan', 'categoria': 'local'},
     
     # === ROSCOMMON REGION ===
     {'nombre': 'Roscommon Herald', 'url': 'https://www.roscommonherald.ie/news/crime/', 'base': 'https://www.roscommonherald.ie', 'condado': 'Roscommon', 'categoria': 'local'},
@@ -701,11 +683,9 @@ FUENTES_BASE = [
     
     # === CARLOW REGION ===
     {'nombre': 'Carlow Live', 'url': 'https://carlowlive.ie/category/crime/', 'base': 'https://carlowlive.ie', 'condado': 'Carlow', 'categoria': 'local'},
-    {'nombre': 'Carlow Nationalist', 'url': 'https://carlownationalist.ie/category/crime/', 'base': 'https://carlownationalist.ie', 'condado': 'Carlow', 'categoria': 'local'},
     
     # === MEATH REGION ===
     {'nombre': 'Meath Chronicle', 'url': 'https://www.meathchronicle.ie/news/crime/', 'base': 'https://www.meathchronicle.ie', 'condado': 'Meath', 'categoria': 'local'},
-    {'nombre': 'Meath Live', 'url': 'https://meathlive.ie/category/crime/', 'base': 'https://meathlive.ie', 'condado': 'Meath', 'categoria': 'local'},
     
     # === LONGFORD REGION ===
     {'nombre': 'Longford Leader', 'url': 'https://www.longfordleader.ie/news/crime/', 'base': 'https://www.longfordleader.ie', 'condado': 'Longford', 'categoria': 'local'},
@@ -730,7 +710,6 @@ FUENTES_BASE = [
     {'nombre': 'Newry Reporter', 'url': 'https://www.newryreporter.com/news/crime/', 'base': 'https://www.newryreporter.com', 'condado': 'Down', 'categoria': 'ni'},
     
     # === NORTHERN IRELAND - TYRONE ===
-    {'nombre': 'Tyrone Times', 'url': 'https://www.tyronetimes.co.uk/news/crime', 'base': 'https://www.tyronetimes.co.uk', 'condado': 'Tyrone', 'categoria': 'ni'},
     {'nombre': 'Ulster Herald', 'url': 'https://ulsterherald.com/category/crime/', 'base': 'https://ulsterherald.com', 'condado': 'Tyrone', 'categoria': 'ni'},
     
     # === NORTHERN IRELAND - ARMAGH ===
@@ -759,7 +738,7 @@ PALABRAS_CLAVE_CRIMEN = [
     'drugs', 'cocaine', 'heroin', 'cannabis', 'weed', 'meth', 'methamphetamine',
     'ecstasy', 'mdma', 'benzos', 'benzodiazepines', 'oxycodone', 'fentanyl',
     'trafficking', 'drug bust', 'seizure', 'cocaine seizure', 'drugs worth',
-    'kilos of cocaine', 'drug gang', 'cartel', 'drug lord', 'narco',
+    'kilos of cocaine', 'drug gang', 'cartel', 'drug lord', 'narco', 'kill', 'killed'
     
     # Gang violence and feuds
     'kinahan', 'hutch', 'kinahan cartel', 'hutch feud', 'fearon', 'greencastle',
@@ -770,7 +749,7 @@ PALABRAS_CLAVE_CRIMEN = [
     'dead', 'death', 'body found', 'suspicious death', 'attempted murder',
     
     # Assaults and violent crimes
-    'stabbed', 'stabbing', 'assault', 'attack', 'violent', 'brawl', 'fight',
+    'stabbed', 'kill', 'killed', 'stabbing', 'assault', 'attack', 'violent', 'brawl', 'fight',
     'beat', 'beaten', 'injured', 'hospitalized', 'serious injury',
     
     # Weapons
@@ -792,7 +771,29 @@ PALABRAS_CLAVE_CRIMEN = [
     
     # Other crime related
     'crime scene', 'forensic', 'evidence', 'witness', 'victim', 'suspect',
-    'manhunt', 'escape', 'fugitive', 'wanted', 'alert'
+    'manhunt', 'escape', 'fugitive', 'wanted', 'alert', 'crime',
+
+    # Armas específicas
+    'handgun', 'revolver', 'semi-automatic', 'automatic weapon',
+    'assault rifle', 'submachine gun', 'machine gun', 'uzi', 'glock',
+    'shotgun blast', 'point blank', 'drive-by', 'driveby', 
+    'shootout', 'gunfight', 'firefight', 'exchange of fire',
+    'bullet', 'bullet hole', 'bullet wound', 'gunshot wound',
+    'ballistic', 'ballistics', 'forensic evidence', 'shell casing',
+
+    # Robos y daños
+    'vandalism', 'vandalized', 'graffiti', 'tagged',
+    'arson', 'set fire', 'firebomb', 'incendiary',
+    'car theft', 'stolen vehicle', 'joyriding', 'ram raid',
+    'smash and grab', 'break-in', 'home invasion',
+    'pickpocket', 'pickpocketing', 'shoplifting', 'shoplifter',
+    'mugging', 'mugged', 'purse snatching', 'phone snatching',
+
+    # Delitos modernos
+    'cybercrime', 'hacking', 'data breach', 'ransomware',
+    'phishing', 'identity theft', 'credit card fraud',
+    'online scam', 'internet fraud', 'catfish',
+    'people smuggling', 'human trafficking', 'modern slavery'
 ]
 
 # ============================================================================
@@ -2232,7 +2233,7 @@ def mostrar_banner_inicial():
 ║   ██║  ██╗███████╗███████╗ ██║   ██║╚██████╗     ██║  ██╗██║  ██║██║  ██║██║  ██╗███████╗██║ ╚████║
 ║   ╚═╝  ╚═╝╚══════╝╚══════╝ ╚═╝   ╚═╝ ╚═════╝     ╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═══╝
 ║                                                                               ║
-║   🔪 KELTIC KRAKEN v{VERSION} - IRELAND CRIME INTELLIGENCE PLATFORM           ║
+║   🔪 KELTIC KRAKEN v{VERSION} - IRELAND CRIME INTELLIGENCE PLATFORM                ║
 ║                                                                               ║
 ║   ═══════════════════════════════════════════════════════════════════════     ║
 ║                                                                               ║
@@ -2244,7 +2245,7 @@ def mostrar_banner_inicial():
 ║                                                                               ║
 ║   ═══════════════════════════════════════════════════════════════════════     ║
 ║                                                                               ║
-║   🛡️  \"Un gran poder conlleva una gran responsabilidad\" - Spider-Man        ║
+║   🛡️  \"Un gran poder conlleva una gran responsabilidad\" - Spider-Man          ║
 ║                                                                               ║
 ║     - By Condor2026                                                           ║
 ║                                                     •SpectrumSecurity•        ║
