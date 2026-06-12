@@ -8,7 +8,7 @@ version: '3.8'
 services:
   keltic-kraken:
     build: .
-    container_name: keltic-kraken
+    container_name: keltic_kraken
     ports:
       - "5014:5014"
     volumes:
