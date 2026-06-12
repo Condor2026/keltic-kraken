@@ -82,7 +82,7 @@
 
 ## 📋 TABLA DE CONTENIDOS
 
-- [¿Qué es KELTIC KRAKEN?](#qué-es-keltic-kraken)
+- [¿Qué es KELTIC KRAKEN?](#qué-es-keltic_kraken)
 - [Características Principales](#características-principales)
 - [Requisitos del Sistema](#requisitos-del-sistema)
 - [Instalación Paso a Paso](#instalación-paso-a-paso)
@@ -206,8 +206,8 @@ python --version
 
 ```bash
 # PASO 1: Clonar el repositorio
-git clone https://github.com/Condor2026/keltic-kraken
-cd keltic-kraken
+git clone https://github.com/Condor2026/keltic_kraken
+cd keltic_kraken
 
 # PASO 2: Crear entorno virtual
 python3 -m venv venv
@@ -221,15 +221,15 @@ pip install -r requirements.txt
 python3 -c "import requests, bs4, flask; print('✅ Todo correcto')"
 
 # PASO 5: Ejecutar
-python3 keltic-kraken.py
+python3 keltic_kraken.py
 ```
 
 ### 🪟 Windows
 
 ```powershell
 # PASO 1: Clonar el repositorio
-git clone https://github.com/Condor2026/keltic-kraken
-cd keltic-kraken
+git clone https://github.com/Condor2026/keltic_kraken
+cd keltic_kraken
 
 # PASO 2: Crear entorno virtual
 python -m venv venv
@@ -243,17 +243,17 @@ pip install -r requirements.txt
 python -c "import requests, bs4, flask; print('✅ Todo correcto')"
 
 # PASO 5: Ejecutar
-python keltic-kraken.py
+python keltic_kraken.py
 ```
 
 ### 🐳 Docker
 
 ```bash
 # Construir imagen
-docker build -t keltic-kraken .
+docker build -t keltic_kraken .
 
 # Ejecutar contenedor
-docker run -p 5014:5014 keltic-kraken
+docker run -p 5014:5014 keltic_kraken
 
 # O con docker-compose
 docker-compose up -d
@@ -520,7 +520,7 @@ Cada tarjeta muestra:
 ```
 keltic-kraken/
 │
-├── 📄 keltic-kraken.py          # Script principal (2250+ líneas)
+├── 📄 keltic_kraken.py          # Script principal (2250+ líneas)
 ├── 📄 requirements.txt          # Dependencias Python
 ├── 📄 README.md                 # Este documento
 ├── 📄 LICENSE                   # GPL v3
@@ -551,118 +551,6 @@ keltic-kraken/
 
 ---
 
-## SOLUCIÓN DE PROBLEMAS
-
-### ❌ Error: ModuleNotFoundError
-
-```bash
-# Solución
-pip install -r requirements.txt
-# o
-pip install requests beautifulsoup4 flask lxml
-```
-
-### ❌ Error: Port 5014 already in use
-
-```bash
-# Solución: Cambiar puerto en keltic_kraken.py (línea ~100)
-PUERTO = 5015  # Cambia a otro número
-```
-
-### ❌ Error: Permission denied (Linux/Mac)
-
-```bash
-chmod +x keltic_kraken.py
-python3 keltic_kraken.py
-```
-
-### ❌ Muchas fuentes INACTIVE
-
-```bash
-# Solución
-➤ Opción: 8   # Verificar con auto-discovery
-# El sistema buscará URLs alternativas automáticamente
-```
-
-### ❌ No se encuentran incidentes
-
-```bash
-# Solución 1: Verificar fuentes activas
-➤ Opción: 8
-
-# Solución 2: Aumentar páginas (en keltic_kraken.py)
-PAGINAS_BUSQUEDA = 8  # En lugar de 5
-
-# Solución 3: Reintentar búsqueda
-➤ Opción: 1
-```
-
-### ❌ Dashboard web no carga gráficos
-
-```bash
-# Causa: Sin conexión a internet (CDN de Chart.js)
-# Solución: Conectar a internet o descargar Chart.js localmente
-```
-
-### ❌ Datos no se guardan
-
-```bash
-# Verificar permisos
-ls -la keltic_kraken_ireland.json
-
-# Crear archivo vacío si no existe
-echo '{"incidentes": [], "ultima_actualizacion": null}' > keltic_kraken_ireland.json
-```
-
-### ❌ Error SSL/Certificado
-
-```bash
-# Solución temporal (no recomendado para producción)
-pip install certifi
-# O actualizar certificados del sistema
-```
-
----
-
-## PREGUNTAS FRECUENTES
-
-### ❓ ¿Cada cuánto debo actualizar los datos?
-
-**Recomendación:** Una vez al día, por la mañana (8-9 AM) para capturar noticias del día anterior.
-
-### ❓ ¿Puedo automatizar las búsquedas?
-
-**Sí, con cron (Linux/Mac):**
-
-```bash
-# Editar crontab
-crontab -e
-
-# Añadir línea (ejecuta a las 8 AM)
-0 8 * * * cd /ruta/keltic-kraken && python3 keltic-kraken.py -auto
-```
-
-**Windows (Programador de tareas):**
-- Crear tarea básica
-- Desencadenante: Diario a las 8:00 AM
-- Acción: `python C:\ruta\keltic-kraken\keltic_kraken.py`
-
-### ❓ ¿Los datos son en tiempo real?
-
-No exactamente. Depende de:
-1. Cuándo los periódicos publican las noticias
-2. Cuándo ejecutas el scraper
-
-**Latencia típica:** 12-24 horas
-
-### ❓ ¿Puedo añadir mis propias fuentes?
-
-**Sí.** Edita la lista `FUENTES_BASE` en `keltic_kraken.py`:
-
-```python
-{'nombre': 'Mi Fuente', 'url': 'https://ejemplo.com/crime/', 'base': 'https://ejemplo.com', 'condado': 'Dublin'}
-```
-
 ### ❓ ¿Esto es legal?
 
 **Sí.** El sistema:
@@ -682,7 +570,7 @@ El sistema está diseñado para Irlanda, pero puede adaptarse:
 
 ### ❓ ¿Dónde se guardan los datos?
 
-En `keltic-kraken_ireland.json` (formato JSON legible)
+En `keltic_kraken_ireland.json` (formato JSON legible)
 
 ### ❓ ¿Puedo exportar los datos?
 
