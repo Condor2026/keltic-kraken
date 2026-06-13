@@ -1997,7 +1997,7 @@ def mostrar_menu_principal():
 {Color.RED}╚{'═' * 70}╝{Color.RESET}
 
 {Color.YELLOW}┌{'─' * 50}┐{Color.RESET}
-{Color.YELLOW}│{Color.CYAN}  📋 {t('menu_title')}{' ' * 29}{Color.YELLOW}│{Color.RESET}
+{Color.YELLOW}│{Color.CYAN}  📋 {t('menu_title')}{' ' * 30}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}├{'─' * 50}┤{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [1] 🔍 {t('cmd_buscar')}{' ' * 4}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [2] 📊 {t('cmd_analisis')}{' ' * 11}{Color.YELLOW}│{Color.RESET}
