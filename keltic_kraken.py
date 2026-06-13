@@ -261,8 +261,8 @@ ARCHIVO_CACHE = 'url_cache_ireland.json'
 ARCHIVO_ESTADO = 'estado_fuentes_ireland.json'
 ARCHIVO_BACKUP = 'keltic_kraken_backup.json'
 PAGINAS_BUSQUEDA = 5
-TIMEOUT = 25
-MAX_INTENTOS = 3
+TIMEOUT = 15
+MAX_INTENTOS = 1
 DELAY_MIN = 0.8
 DELAY_MAX = 2.0
 
@@ -595,23 +595,18 @@ FUENTES_BASE = [
     {'nombre': 'The Journal', 'url': 'https://www.thejournal.ie/crime/', 'base': 'https://www.thejournal.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Mirror', 'url': 'https://www.irishmirror.ie/news/irish-crime/', 'base': 'https://www.irishmirror.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Examiner', 'url': 'https://www.irishexaminer.com/news/crime/', 'base': 'https://www.irishexaminer.com', 'condado': 'Cork', 'categoria': 'national'},
-    {'nombre': 'Sunday World', 'url': 'https://www.sundayworld.com/crime/', 'base': 'https://www.sundayworld.com', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Newstalk', 'url': 'https://www.newstalk.com/crime', 'base': 'https://www.newstalk.com', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Today FM', 'url': 'https://www.todayfm.com/news/crime/', 'base': 'https://www.todayfm.com', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Garda Post', 'url': 'https://www.gardapost.com/', 'base': 'https://www.gardapost.com', 'condado': 'Dublin', 'categoria': 'national'},
     
     # === DUBLIN REGION ===
-    {'nombre': 'Dublin Live', 'url': 'https://www.dublinlive.ie/news/dublin-crime/', 'base': 'https://www.dublinlive.ie', 'condado': 'Dublin', 'categoria': 'local'},
     {'nombre': 'Dublin Gazette', 'url': 'https://dublingazette.com/crime/', 'base': 'https://dublingazette.com', 'condado': 'Dublin', 'categoria': 'local'},
     {'nombre': 'Dublin People', 'url': 'https://dublinpeople.com/news/crime/', 'base': 'https://dublinpeople.com', 'condado': 'Dublin', 'categoria': 'local'},
-    {'nombre': 'North Dublin News', 'url': 'https://northdublinnews.ie/category/crime/', 'base': 'https://northdublinnews.ie', 'condado': 'Dublin', 'categoria': 'local'},
-    {'nombre': 'South Dublin News', 'url': 'https://southdublinnews.ie/category/crime/', 'base': 'https://southdublinnews.ie', 'condado': 'Dublin', 'categoria': 'local'},
     {'nombre': 'Dublin Evening Herald', 'url': 'https://www.dublinlive.ie/news/dublin-news/', 'base': 'https://www.dublinlive.ie', 'condado': 'Dublin', 'categoria': 'local'},
     
     # === CORK REGION ===
     {'nombre': 'Cork Beo', 'url': 'https://www.corkbeo.ie/news/cork-crime/', 'base': 'https://www.corkbeo.ie', 'condado': 'Cork', 'categoria': 'local'},
     {'nombre': 'Cork Independent', 'url': 'https://corkindependent.com/category/crime/', 'base': 'https://corkindependent.com', 'condado': 'Cork', 'categoria': 'local'},
-    {'nombre': 'The Corkman', 'url': 'https://www.thecorkman.ie/news/crime/', 'base': 'https://www.thecorkman.ie', 'condado': 'Cork', 'categoria': 'local'},
     {'nombre': 'Cork News', 'url': 'https://www.corknews.ie/crime/', 'base': 'https://www.corknews.ie', 'condado': 'Cork', 'categoria': 'local'},
     {'nombre': 'Cork Safety Alert', 'url': 'https://corksafetyalert.com/category/crime/', 'base': 'https://corksafetyalert.com', 'condado': 'Cork', 'categoria': 'local'},
     
