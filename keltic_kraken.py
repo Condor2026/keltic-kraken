@@ -60,10 +60,10 @@ def mostrar_banner_idioma():
 
 def mostrar_menu_idioma():
     print(f"\n{Color.YELLOW}┌{'─' * 50}┐{Color.RESET}")
-    print(f"{Color.YELLOW}│{Color.CYAN}  🌍 SELECCIONE IDIOMA / SELECT LANGUAGE{' ' * 20}{Color.YELLOW}│{Color.RESET}")
+    print(f"{Color.YELLOW}│{Color.CYAN}  🌍 SELECCIONE IDIOMA / SELECT LANGUAGE{' ' * 15}{Color.YELLOW}│{Color.RESET}")
     print(f"{Color.YELLOW}├{'─' * 50}┤{Color.RESET}")
-    print(f"{Color.YELLOW}│{Color.GREEN}  [1] Español                                    {Color.YELLOW}│{Color.RESET}")
-    print(f"{Color.YELLOW}│{Color.GREEN}  [2] English                                    {Color.YELLOW}│{Color.RESET}")
+    print(f"{Color.YELLOW}│{Color.GREEN}  [1] Español                                     {Color.YELLOW}│{Color.RESET}")
+    print(f"{Color.YELLOW}│{Color.GREEN}  [2] English                                     {Color.YELLOW}│{Color.RESET}")
     print(f"{Color.YELLOW}└{'─' * 50}┘{Color.RESET}")
 
 def seleccionar_idioma():
@@ -2269,8 +2269,8 @@ if __name__ == '__main__':
     print(f"\n{Color.CYAN}┌{'─' * 40}┐{Color.RESET}")
     print(f"{Color.CYAN}│{Color.WHITE}  ¿Cómo deseas ejecutar?{' ' * 16}{Color.CYAN}│{Color.RESET}")
     print(f"{Color.CYAN}├{'─' * 40}┤{Color.RESET}")
-    print(f"{Color.CYAN}│{Color.GREEN}  [1] Modo Terminal (recomendado){' ' * 8}{Color.CYAN}│{Color.RESET}")
-    print(f"{Color.CYAN}│{Color.GREEN}  [2] Modo Web (dashboard gráficos){' ' * 7}{Color.CYAN}│{Color.RESET}")
+    print(f"{Color.CYAN}│{Color.GREEN}  [1] Modo Terminal (recomendado){' ' * 7}{Color.CYAN}│{Color.RESET}")
+    print(f"{Color.CYAN}│{Color.GREEN}  [2] Modo Web (dashboard gráficos){' ' * 5}{Color.CYAN}│{Color.RESET}")
     print(f"{Color.CYAN}└{'─' * 40}┘{Color.RESET}")
     
     modo = input(f"\n{Color.CYAN}➤ {Color.YELLOW}Elige: {Color.RESET}")
