@@ -590,7 +590,7 @@ class URLAutoDiscoverer:
 FUENTES_BASE = [
     # === NATIONAL NEWS OUTLETS ===
     {'nombre': 'Irish Times', 'url': 'https://www.irishtimes.com/crime-law/', 'base': 'https://www.irishtimes.com', 'condado': 'Dublin', 'categoria': 'national'},
-    {'nombre': 'Irish Independent', 'url': 'https://www.independent.ie/irish-news/crime/', 'base': 'https://www.independent.ie', 'condado': 'Dublin', 'categoria': 'national'},
+    #{'nombre': 'Irish Independent', 'url': 'https://www.independent.ie/irish-news/crime/', 'base': 'https://www.independent.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'RTÉ News', 'url': 'https://www.rte.ie/news/crime/', 'base': 'https://www.rte.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'The Journal', 'url': 'https://www.thejournal.ie/crime/', 'base': 'https://www.thejournal.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Mirror', 'url': 'https://www.irishmirror.ie/news/irish-crime/', 'base': 'https://www.irishmirror.ie', 'condado': 'Dublin', 'categoria': 'national'},
@@ -630,7 +630,7 @@ FUENTES_BASE = [
     
     # === DONEGAL REGION ===
     {'nombre': 'Donegal Daily', 'url': 'https://donegaldaily.com/category/crime/', 'base': 'https://donegaldaily.com', 'condado': 'Donegal', 'categoria': 'local'},
-    {'nombre': 'Donegal News', 'url': 'https://donegalnews.com/category/crime/', 'base': 'https://donegalnews.com', 'condado': 'Donegal', 'categoria': 'local'},
+    #{'nombre': 'Donegal News', 'url': 'https://donegalnews.com/category/crime/', 'base': 'https://donegalnews.com', 'condado': 'Donegal', 'categoria': 'local'},
     {'nombre': 'Highland Radio', 'url': 'https://highlandradio.com/category/crime/', 'base': 'https://highlandradio.com', 'condado': 'Donegal', 'categoria': 'local'},
     
     # === MAYO REGION ===
@@ -649,7 +649,7 @@ FUENTES_BASE = [
     
     # === LOUTH REGION ===
     {'nombre': 'Louth Live', 'url': 'https://www.louthlive.ie/news/crime/', 'base': 'https://www.louthlive.ie', 'condado': 'Louth', 'categoria': 'local'},
-    {'nombre': 'Drogheda Independent', 'url': 'https://www.droghedaindependent.ie/news/crime/', 'base': 'https://www.droghedaindependent.ie', 'condado': 'Louth', 'categoria': 'local'},
+    #{'nombre': 'Drogheda Independent', 'url': 'https://www.droghedaindependent.ie/news/crime/', 'base': 'https://www.droghedaindependent.ie', 'condado': 'Louth', 'categoria': 'local'},
     
     # === SLIGO REGION ===
     #{'nombre': 'Sligo Champion', 'url': 'https://www.sligochampion.ie/news/crime/', 'base': 'https://www.sligochampion.ie', 'condado': 'Sligo', 'categoria': 'local'},
@@ -667,7 +667,7 @@ FUENTES_BASE = [
     {'nombre': 'Northern Sound', 'url': 'https://www.northernsound.ie/news/crime/', 'base': 'https://www.northernsound.ie', 'condado': 'Cavan', 'categoria': 'local'},
     
     # === MONAGHAN REGION ===
-    {'nombre': 'Northern Standard', 'url': 'https://northernstandard.ie/category/crime/', 'base': 'https://northernstandard.ie', 'condado': 'Monaghan', 'categoria': 'local'},
+    #{'nombre': 'Northern Standard', 'url': 'https://northernstandard.ie/category/crime/', 'base': 'https://northernstandard.ie', 'condado': 'Monaghan', 'categoria': 'local'},
     
     # === ROSCOMMON REGION ===
     {'nombre': 'Roscommon Herald', 'url': 'https://www.roscommonherald.ie/news/crime/', 'base': 'https://www.roscommonherald.ie', 'condado': 'Roscommon', 'categoria': 'local'},
