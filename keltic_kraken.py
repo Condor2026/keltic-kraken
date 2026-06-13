@@ -1997,7 +1997,7 @@ def mostrar_menu_principal():
 {Color.RED}╚{'═' * 70}╝{Color.RESET}
 
 {Color.YELLOW}┌{'─' * 50}┐{Color.RESET}
-{Color.YELLOW}│{Color.CYAN}  📋 {t('menu_title')}{' ' * 37}{Color.YELLOW}│{Color.RESET}
+{Color.YELLOW}│{Color.CYAN}  📋 {t('menu_title')}{' ' * 29}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}├{'─' * 50}┤{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [1] 🔍 {t('cmd_buscar')}{' ' * 4}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [2] 📊 {t('cmd_analisis')}{' ' * 11}{Color.YELLOW}│{Color.RESET}
@@ -2010,7 +2010,7 @@ def mostrar_menu_principal():
 {Color.YELLOW}│{Color.GREEN}  [9] 📊 {t('cmd_tipos')}{' ' * 10}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [10] 📈 {t('cmd_estadisticas')}{' ' * 18}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [11] 🧹 {t('cmd_limpiar')}{' ' * 8}{Color.YELLOW}│{Color.RESET}
-{Color.YELLOW}│{Color.RED}  [12] 🗑️ {t('cmd_salir')}{' ' * 18}{Color.YELLOW}│{Color.RESET}
+{Color.YELLOW}│{Color.RED}  [12] 🗑️ {t('cmd_salir')}{' ' * 19}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}└{'─' * 50}┘{Color.RESET}
 """)
 
