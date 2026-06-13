@@ -591,7 +591,6 @@ FUENTES_BASE = [
     # === NATIONAL NEWS OUTLETS ===
     {'nombre': 'Irish Times', 'url': 'https://www.irishtimes.com/crime-law/', 'base': 'https://www.irishtimes.com', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Independent', 'url': 'https://www.independent.ie/irish-news/crime/', 'base': 'https://www.independent.ie', 'condado': 'Dublin', 'categoria': 'national'},
-    {'nombre': 'RTÉ News', 'url': 'https://www.rte.ie/news/crime/', 'base': 'https://www.rte.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'The Journal', 'url': 'https://www.thejournal.ie/crime/', 'base': 'https://www.thejournal.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Mirror', 'url': 'https://www.irishmirror.ie/news/irish-crime/', 'base': 'https://www.irishmirror.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'Irish Examiner', 'url': 'https://www.irishexaminer.com/news/crime/', 'base': 'https://www.irishexaminer.com', 'condado': 'Cork', 'categoria': 'national'},
@@ -640,11 +639,10 @@ FUENTES_BASE = [
     {'nombre': 'Midwest Radio', 'url': 'https://www.midwestradio.ie/news/crime/', 'base': 'https://www.midwestradio.ie', 'condado': 'Mayo', 'categoria': 'local'},
     
     # === WEXFORD REGION ===
-    {'nombre': 'Wexford People', 'url': 'https://www.wexfordpeople.ie/news/crime/', 'base': 'https://www.wexfordpeople.ie', 'condado': 'Wexford', 'categoria': 'local'},
-    {'nombre': 'South East Radio', 'url': 'https://southeastradio.ie/news/crime/', 'base': 'https://southeastradio.ie', 'condado': 'Wexford', 'categoria': 'local'},
+    #{'nombre': 'Wexford People', 'url': 'https://www.wexfordpeople.ie/news/crime/', 'base': 'https://www.wexfordpeople.ie', 'condado': 'Wexford', 'categoria': 'local'},
     
     # === KILDARE REGION ===
-    {'nombre': 'Kildare Now', 'url': 'https://kildarenow.com/crime', 'base': 'https://kildarenow.com', 'condado': 'Kildare', 'categoria': 'local'},
+    #{'nombre': 'Kildare Now', 'url': 'https://kildarenow.com/crime', 'base': 'https://kildarenow.com', 'condado': 'Kildare', 'categoria': 'local'},
     
     # === TIPPERARY REGION ===
     {'nombre': 'Tipperary Live', 'url': 'https://www.tipperarylive.ie/news/crime/', 'base': 'https://www.tipperarylive.ie', 'condado': 'Tipperary', 'categoria': 'local'},
