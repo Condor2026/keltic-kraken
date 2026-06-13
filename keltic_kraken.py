@@ -50,7 +50,7 @@ def mostrar_banner_idioma():
     print(f"""
 {Color.CYAN}╔════════════════════════════════════════════════════════════════════╗
 ║                                                                    ║
-║   🔪 KELTIC KRAKEN v{VERSION} - IRELAND CRIME INTELLIGENCE               ║
+║   🔪 KELTIC KRAKEN v{VERSION} - IRELAND CRIME INTELLIGENCE                ║
 ║                                                                    ║
 ║   "Vigilamos para proteger, no para señalar. Datos públicos,       ║
 ║    ética inquebrantable, transparencia absoluta."                  ║
@@ -60,7 +60,7 @@ def mostrar_banner_idioma():
 
 def mostrar_menu_idioma():
     print(f"\n{Color.YELLOW}┌{'─' * 50}┐{Color.RESET}")
-    print(f"{Color.YELLOW}│{Color.CYAN}  🌍 SELECCIONE IDIOMA / SELECT LANGUAGE{' ' * 15}{Color.YELLOW}│{Color.RESET}")
+    print(f"{Color.YELLOW}│{Color.CYAN}  🌍 SELECCIONE IDIOMA / SELECT LANGUAGE{' ' * 10}{Color.YELLOW}│{Color.RESET}")
     print(f"{Color.YELLOW}├{'─' * 50}┤{Color.RESET}")
     print(f"{Color.YELLOW}│{Color.GREEN}  [1] Español                                     {Color.YELLOW}│{Color.RESET}")
     print(f"{Color.YELLOW}│{Color.GREEN}  [2] English                                     {Color.YELLOW}│{Color.RESET}")
@@ -88,7 +88,7 @@ def seleccionar_idioma():
 
 TEXTOS = {
     'es': {
-        'app_name': '🔪 KELTIC KRAKEN v3.0',
+        'app_name': 'KELTIC KRAKEN v3.0',
         'welcome_title': 'PLATAFORMA DE INTELIGENCIA CRIMINAL DE IRLANDA',
         'elegir_idioma': 'Seleccione idioma: 1. Español  2. English',
         'menu_title': 'MENÚ PRINCIPAL',
@@ -125,7 +125,7 @@ TEXTOS = {
         'procesando': 'Procesando...'
     },
     'en': {
-        'app_name': '🔪 KELTIC KRAKEN v3.0',
+        'app_name': 'KELTIC KRAKEN v3.0',
         'welcome_title': 'IRELAND CRIMINAL INTELLIGENCE PLATFORM',
         'elegir_idioma': 'Select language: 1. Spanish  2. English',
         'menu_title': 'MAIN MENU',
@@ -621,7 +621,7 @@ FUENTES_BASE = [
     {'nombre': 'Waterford Live', 'url': 'https://www.waterfordlive.ie/news/crime/', 'base': 'https://www.waterfordlive.ie', 'condado': 'Waterford', 'categoria': 'local'},
     
     # === KERRY REGION ===
-    {'nombre': 'Kerryman', 'url': 'https://www.kerryman.ie/news/crime/', 'base': 'https://www.kerryman.ie', 'condado': 'Kerry', 'categoria': 'local'},
+    #{'nombre': 'Kerryman', 'url': 'https://www.kerryman.ie/news/crime/', 'base': 'https://www.kerryman.ie', 'condado': 'Kerry', 'categoria': 'local'},
     {'nombre': 'Radio Kerry', 'url': 'https://www.radiokerry.ie/news/crime/', 'base': 'https://www.radiokerry.ie', 'condado': 'Kerry', 'categoria': 'local'},
     
     # === CLARE REGION ===
@@ -652,7 +652,7 @@ FUENTES_BASE = [
     {'nombre': 'Drogheda Independent', 'url': 'https://www.droghedaindependent.ie/news/crime/', 'base': 'https://www.droghedaindependent.ie', 'condado': 'Louth', 'categoria': 'local'},
     
     # === SLIGO REGION ===
-    {'nombre': 'Sligo Champion', 'url': 'https://www.sligochampion.ie/news/crime/', 'base': 'https://www.sligochampion.ie', 'condado': 'Sligo', 'categoria': 'local'},
+    #{'nombre': 'Sligo Champion', 'url': 'https://www.sligochampion.ie/news/crime/', 'base': 'https://www.sligochampion.ie', 'condado': 'Sligo', 'categoria': 'local'},
     {'nombre': 'Ocean FM', 'url': 'https://www.oceanfm.ie/news/crime/', 'base': 'https://www.oceanfm.ie', 'condado': 'Sligo', 'categoria': 'local'},
     
     # === LAOIS REGION ===
@@ -758,7 +758,7 @@ PALABRAS_CLAVE_CRIMEN = [
     
     # Organized crime
     'mafia', 'organized crime', 'criminal gang', 'racketeering', 'money laundering',
-    'extortion', 'kidnapping', 'disappeared', 'paramilitary', 'dissident',
+    'extortion', 'kidnapping', 'disappeared', 'paramilitary', 'dissident', 'criminal',
     
     # Courts and justice
     'court', 'trial', 'judge', 'jury', 'verdict', 'sentence', 'prison', 'jail',
@@ -1989,25 +1989,25 @@ def mostrar_menu_principal():
     """Muestra el menú principal con diseño profesional"""
     print(f"""
 {Color.RED}╔{'═' * 70}╗{Color.RESET}
-{Color.RED}║{Color.BOLD}{Color.WHITE}  🔪 {t('app_name')}{' ' * 43}{Color.RED}║{Color.RESET}
+{Color.RED}║{Color.BOLD}{Color.WHITE}  🔪 {t('app_name')}{' ' * 44}{Color.RED}║{Color.RESET}
 {Color.RED}╠{'═' * 70}╣{Color.RESET}
 {Color.RED}║{Color.CYAN}  📊 {t('stats_total')}: {gestor_global.estadisticas()['total']} {t('incidentes')}{' ' * 35}{Color.RED}║{Color.RESET}
 {Color.RED}║{Color.YELLOW}  📰 {t('fuentes')}: {len([f for f in fuentes_global if f.get('activo', True)])} de {len(fuentes_global)}{' ' * 40}{Color.RED}║{Color.RESET}
-{Color.RED}║{Color.GREEN}  🏴 {t('condados')}: {len(gestor_global.estadisticas()['condados'])}{' ' * 45}{Color.RED}║{Color.RESET}
+{Color.RED}║{Color.GREEN}  🏴 {t('condados')}: {len(gestor_global.estadisticas()['condados'])}{' ' * 44}{Color.RED}║{Color.RESET}
 {Color.RED}╚{'═' * 70}╝{Color.RESET}
 
 {Color.YELLOW}┌{'─' * 50}┐{Color.RESET}
-{Color.YELLOW}│{Color.CYAN}  📋 {t('menu_title')}{' ' * 36}{Color.YELLOW}│{Color.RESET}
+{Color.YELLOW}│{Color.CYAN}  📋 {t('menu_title')}{' ' * 37}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}├{'─' * 50}┤{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [1] 🔍 {t('cmd_buscar')}{' ' * 4}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [2] 📊 {t('cmd_analisis')}{' ' * 11}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [3] 🔗 {t('cmd_conexiones')}{' ' * 3}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [4] 📈 {t('cmd_evolucion')}{' ' * 14}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [5] 🌐 {t('cmd_web')}{' ' * 1}{Color.YELLOW}│{Color.RESET}
-{Color.YELLOW}│{Color.GREEN}  [6] 📰 {t('cmd_ultimos')}{' ' * 9}{Color.YELLOW}│{Color.RESET}
-{Color.YELLOW}│{Color.GREEN}  [7] 📥 {t('cmd_exportar')}{' ' * 12}{Color.YELLOW}│{Color.RESET}
+{Color.YELLOW}│{Color.GREEN}  [6] 📰 {t('cmd_ultimos')}{' ' * 8}{Color.YELLOW}│{Color.RESET}
+{Color.YELLOW}│{Color.GREEN}  [7] 📥 {t('cmd_exportar')}{' ' * 11}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [8] 🔍 {t('cmd_verificar')}{' ' * 1}{Color.YELLOW}│{Color.RESET}
-{Color.YELLOW}│{Color.GREEN}  [9] 📊 {t('cmd_tipos')}{' ' * 11}{Color.YELLOW}│{Color.RESET}
+{Color.YELLOW}│{Color.GREEN}  [9] 📊 {t('cmd_tipos')}{' ' * 10}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [10] 📈 {t('cmd_estadisticas')}{' ' * 18}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.GREEN}  [11] 🧹 {t('cmd_limpiar')}{' ' * 8}{Color.YELLOW}│{Color.RESET}
 {Color.YELLOW}│{Color.RED}  [12] 🗑️ {t('cmd_salir')}{' ' * 18}{Color.YELLOW}│{Color.RESET}
