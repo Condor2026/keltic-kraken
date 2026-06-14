@@ -703,7 +703,7 @@ FUENTES_BASE = [
     # ========================================================================
     # === NATIONAL NEWS OUTLETS - PRINCIPALES PERIÓDICOS NACIONALES ===
     # ========================================================================
-    {'nombre': 'Irish Times', 'url': 'https://www.irishtimes.com/crime-law/', 'base': 'https://www.irishtimes.com', 'condado': 'Dublin', 'categoria': 'national'},
+    #{'nombre': 'Irish Times', 'url': 'https://www.irishtimes.com/crime-law/', 'base': 'https://www.irishtimes.com', 'condado': 'Dublin', 'categoria': 'national'},
     # {'nombre': 'Irish Independent', 'url': 'https://www.independent.ie/irish-news/crime/', 'base': 'https://www.independent.ie', 'condado': 'Dublin', 'categoria': 'national'},  # Fuente rota - pendiente revisión
     {'nombre': 'RTÉ News', 'url': 'https://www.rte.ie/news/crime/', 'base': 'https://www.rte.ie', 'condado': 'Dublin', 'categoria': 'national'},
     {'nombre': 'The Journal', 'url': 'https://www.thejournal.ie/crime/', 'base': 'https://www.thejournal.ie', 'condado': 'Dublin', 'categoria': 'national'},
